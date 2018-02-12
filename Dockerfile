@@ -9,6 +9,6 @@ RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.
 
 COPY . /src
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD cd /src && python blog.py
